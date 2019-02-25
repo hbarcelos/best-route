@@ -1,0 +1,23 @@
+{
+  "name": "best-route",
+  "version": "0.1.0",
+  "main": "best-route.js",
+  "author": "Henrique Barcelos <rick.hjpbarcelos@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "node ./test-runner",
+    "test:watch": "nodemon ./test-runner -e js",
+    "start": "node best-route.js"
+  },
+  "dependencies": {
+    "deep-equal": "^1.0.1",
+    "deepmerge": "^3.2.0",
+    "ramda": "^0.26.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.10.1",
+    "tape-catch": "^1.0.6"
+  }
+}
