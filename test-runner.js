@@ -1,6 +1,6 @@
 const path = require('path');
 const test = require('tape');
-const tapReporter = require('tap-spec');
+const tapReporter = require('tap-nirvana');
 
 test.createStream()
   .pipe(tapReporter())
